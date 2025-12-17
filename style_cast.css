@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+body {
+  background: #000;
+  color: #fff;
+}
+
+
+.topbar {
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0,0,0,0.6);
+  backdrop-filter: blur(10px);
+}
+
+.logo {
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 2px;
+  font-size: 22px;
+}
+
+
+.home-btn {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 8px 18px;
+  border-radius: 20px;
+  border: 1px solid rgba(255,255,255,0.25);
+  transition: 0.25s ease;
+}
+
+.home-btn:hover {
+  background: linear-gradient(90deg, #ff0055, #06146a, #ff4400);
+  border-color: transparent;
+}
+
+
+.cards-wrapper {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+
+.card {
+  width: 260px;
+  background: #111;
+  border-radius: 24px;
+  padding: 16px;
+  position: relative;
+  border: 3px solid transparent;
+  background-clip: padding-box;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  inset: -3px;
+  border-radius: 26px;
+  background: linear-gradient(
+    180deg,
+    #ff004c,
+    #8f00ff,
+    #ff7a00
+  );
+  z-index: -1;
+}
+
+/* IMAGE */
+.card img {
+  width: 100%;
+  border-radius: 16px;
+  margin-bottom: 12px;
+}
+
+
+.card h2 {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+
+.info {
+  font-size: 13px;
+  opacity: 0.9;
+  margin-bottom: 10px;
+}
+
+.info p {
+  margin-bottom: 4px;
+}
+
+
+.tag {
+  display: inline-block;
+  background: #fff;
+  color: #000;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+
+.card ul {
+  font-size: 12px;
+  list-style: disc;
+  padding-left: 18px;
+}
+
+.card li {
+  margin-bottom: 4px;
+}
