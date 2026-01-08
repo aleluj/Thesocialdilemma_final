@@ -11,7 +11,7 @@ body {
   justify-content: center;
   position: relative;
   
-  background: url("immagini/thesocialdjlemma.jpg") center/cover no-repeat;
+  background: url("thesocialdjlemma.jpg") center/cover no-repeat;
 
   /* + luminosità per rendere visibile l’immagine */
   filter: brightness(0.95);
