@@ -3,10 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <title>Vita Social - The Social Dilemma</title>
-  <link rel="stylesheet" href="style.css">
+
+  <!-- SEO & Mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Riflessione sull’impatto dei social network nella vita quotidiana e sulla realtà distorta mostrata online, ispirata al documentario The Social Dilemma.">
+
+  <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;600;800&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Favicon -->
   <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
+
 <body>
 
 <header class="topbar">
@@ -17,7 +28,7 @@
 </header>
 
 <section class="film-hero">
-  <img src="scldlm.jpg" class="film-poster" alt="The Social Dilemma">
+  <img src="scldlm.jpg" class="film-poster" alt="Poster del documentario The Social Dilemma">
 
   <div class="film-title">
     <h1>VITA SOCIAL</h1>
@@ -25,34 +36,64 @@
   </div>
 </section>
 
+<main>
 <section class="film-content">
-  <h2>Trama Approfondita</h2>
+
+  <h2>Introduzione</h2>
   <p>
-    "The Social Dilemma" mostra il lato oscuro dei social network attraverso le testimonianze
-    di ex dipendenti di aziende come Facebook, Google e Twitter. Il documentario rivela come
-    gli algoritmi non siano progettati per aiutare gli utenti, ma per manipolarne l’attenzione.
+    Al giorno d’oggi i social network sono diventati fondamentali nella vita quotidiana.
+    Quasi tutti possiedono almeno un profilo social e non averlo spesso fa sentire diversi
+    o esclusi dalla società. I social vengono utilizzati per condividere momenti della propria
+    vita, ma questa condivisione è sempre un bene?
   </p>
 
   <p>
-    Le piattaforme analizzano ogni nostro comportamento: cosa guardiamo, quanto tempo
-    restiamo su un contenuto, cosa ignoriamo. Tutto viene trasformato in dati per prevedere
-    ed influenzare le nostre decisioni future.
-  </p>
-
-  <hr>
-
-  <h2>Messaggio e Intenzioni</h2>
-  <p>
-    L'obiettivo principale del film è far emergere la consapevolezza. Non demonizza la
-    tecnologia, ma l'uso distorto che ne fanno le grandi corporazioni.
+    Guardare continuamente momenti della vita altrui, spesso molto diversi dai nostri,
+    può influenzare il modo in cui percepiamo noi stessi e la nostra realtà.
   </p>
 
   <hr>
 
-  <h2>Impressione Soggettiva</h2>
+  <h2>La Condivisione della Felicità</h2>
+  <p>
+    In particolare, le persone tendono a pubblicare quasi esclusivamente i loro momenti
+    più felici: visi sorridenti, esperienze stimolanti, viaggi, attività e spesso anche
+    servizi o prodotti costosi. Chi osserva questi contenuti inizia inevitabilmente
+    a porsi delle domande.
+  </p>
+
+  <p>
+    Il fatto che vengano mostrati solo determinati momenti crea una rappresentazione
+    incompleta della realtà.
+  </p>
+
+  <hr>
+
+  <h2>Una Realtà Distorta</h2>
+  <p>
+    Questa selezione dei contenuti porta alla creazione di una realtà distorta.
+    Chi naviga sui social vede solo vite apparentemente felici e spensierate,
+    senza mai assistere ai problemi, alle difficoltà o ai momenti tristi delle
+    persone che pubblicano.
+  </p>
+
+  <p>
+    Di conseguenza, confrontando questa realtà filtrata con la propria vita,
+    fatta di problemi quotidiani e difficoltà normali, può nascere tristezza
+    e una sensazione di essere diversi o meno felici degli altri.
+  </p>
+
+  <hr>
+
+  <h2>Riflessione Finale</h2>
   <p class="opinion">
-    Questo film lascia un senso di disagio necessario. Mostra quanto siamo diventati
-    vulnerabili in un sistema costruito per catturare la nostra attenzione.
+    In sostanza, è importante imparare a distinguere tra ciò che viene mostrato sui social
+    e la vera realtà. Non bisogna abbattersi vedendo persone apparentemente più felici di noi,
+    perché ciò che viene condiviso è solo una parte della loro vita.
+ <br>
+    La realtà è che i problemi sono comuni a tutti, ma semplicemente non vengono mostrati.
+    Comprendere questo aiuta ad avere una visione più equilibrata e consapevole del mondo
+    digitale.
   </p>
 
   <div class="footer-buttons">
@@ -61,24 +102,23 @@
 
   <h2>Lascia un Commento</h2>
 
-  <form class="comment-form">
+  <form class="comment-form" action="#" method="post">
     <label for="name">Nome</label>
-    <input type="text" id="name" placeholder="Il tuo nome">
+    <input type="text" id="name" placeholder="Il tuo nome" required>
 
     <label for="comment">Commento</label>
-    <textarea id="comment" rows="5" placeholder="Scrivi qui il tuo commento..."></textarea>
+    <textarea id="comment" rows="5" placeholder="Scrivi qui il tuo commento..." required></textarea>
 
     <button type="submit">Invia</button>
   </form>
+
 </section>
+</main>
 
 <footer>
-  <p>
-    <span>Alessandro Valido, Cristian Lazar, Daniel Moisuc, Eusebiu Gradinariu</span>
-    <span>4F</span>
-    <span>2025/2026</span>
-    <span>The Social Dilemma</span>
-  </p>
+  <address>
+    Alessandro Valido
+  </address>
 </footer>
 
 </body>
